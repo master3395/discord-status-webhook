@@ -41,8 +41,13 @@ export interface StatusPageIncidentUpdate {
 	tweet_id: string | null;
 }
 
-export type StatusPageIncidentStatus = 'investigating' | 'identified' | 'monitoring' | 'resolved' | 'postmortem';
-export type StatusPageIncidentImpact = 'none' | 'minor' | 'major' | 'critical';
+export type StatusPageIncidentStatus =
+	| "investigating"
+	| "identified"
+	| "monitoring"
+	| "resolved"
+	| "postmortem";
+export type StatusPageIncidentImpact = "none" | "minor" | "major" | "critical";
 
 export interface StatusPageComponent {
 	id: string;

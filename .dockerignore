@@ -1,0 +1,14 @@
+node_modules/
+dist/
+pnpm-lock.yaml
+.env
+.git/
+.gitignore
+data/
+logs/
+*.log
+npm-debug.log*
+.tmp/
+coverage/
+typings/
+docs/
